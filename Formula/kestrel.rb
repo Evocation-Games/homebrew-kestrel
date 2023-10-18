@@ -8,7 +8,7 @@ class Kestrel < Formula
 
     def install
         libexec.install "Kestrel.app"
-        bin.install_symlink prefix/"Kestrel.app/Contents/MacOS/Kestrel"
+        bin.install_symlink libexec/"Kestrel.app/Contents/MacOS/Kestrel"
     end
 
     test do
