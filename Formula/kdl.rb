@@ -1,4 +1,4 @@
-class kdl < Formula
+class KDL < Formula
     desc "Kestrel Definition Language compiler"
     homepage "https://github.com/EvocationGames/KestrelEngine.git"
     url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KestrelEngine-macOS.zip"
@@ -10,6 +10,6 @@ class kdl < Formula
     end
 
     test do
-        
+
     end
 end
