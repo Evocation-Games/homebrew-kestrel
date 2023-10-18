@@ -8,6 +8,7 @@ class Kestrel < Formula
 
     def install
         prefix.install "Kestrel.app"
+        bin.install_symlink prefix/"Kestrel.app/Contents/MacOS/Kestrel"
     end
 
     test do
