@@ -1,4 +1,4 @@
-class KDL < Formula
+class Kdl < Formula
     desc "Kestrel Definition Language compiler"
     homepage "https://github.com/EvocationGames/KestrelEngine.git"
     url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KestrelEngine-macOS.zip"
