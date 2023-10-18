@@ -1,4 +1,4 @@
-class Kdl < Formula
+class Kdtool < Formula
     desc "Kestrel Development Tooling"
     homepage "https://github.com/EvocationGames/KestrelEngine.git"
     url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KDTool-macOS.tar.gz"
