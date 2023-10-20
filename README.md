@@ -75,3 +75,19 @@ kestrel --game Test.rsrx
 
 This will launch Kestrel with the `Test.rsrx` file being used as the primary game data file. If it has all worked correctly, then you should see a 
 window appear with a "Test" dialog and console.
+
+## Additional Packages
+This repository also contains some additional packages that may be useful when working with Kestrel and KDL. These
+are definition packages that install modules into KDL itself, adding resource type definitions and/or modules.
+
+#### Cosmic Frontier Definitions
+This package includes the CosmicFrontier module which provides resource type definitions that are used in the game
+Cosmic Frontier.
+
+```sh
+brew install cf-definitions
+```
+
+```kdl
+@import CosmicFrontier;
+```
