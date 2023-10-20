@@ -1,10 +1,10 @@
 class Kestrel < Formula
     desc "Kestrel Test Player"
     homepage "https://github.com/Evocation-Games/KestrelEngine.git"
-    url "https://github.com/Evocation-Games/KestrelEngine/releases/download/v0.9.1/KestrelEngine-macOS-370.tar.gz"
+    url "https://github.com/Evocation-Games/KestrelEngine/releases/download/v0.9.1-372/KestrelEngine-macOS-372.tar.gz"
     head "https://github.com/Evocation-Games/KestrelEngine.git"
     license "MIT"
-    sha256 "38cb828ea1de58783378da1d21aad0aca0cfe73e950e8496590482a7203cf524"
+    sha256 "8b33e9316292425b5539cfd4b9ad81aba998cdfe07c852c0c214353eb864d5fd"
 
     def install
         libexec.install "Kestrel.app"
