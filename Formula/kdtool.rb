@@ -4,7 +4,7 @@ class Kdtool < Formula
     url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KDTool-macOS.tar.gz"
     head "https://github.com/EvocationGames/KestrelEngine.git"
     license "MIT"
-    sha256 "f3828b951a991d486a2e01df9e9228afe9e1b27fa18bfffa234c8cd3a941bed1"
+    sha256 "f118ef5a281223577a92b44938b485d8765dc9a83ef1f17a2aa3ec61b277b419"
 
     depends_on "llvm@15"
     depends_on "kestrel"
