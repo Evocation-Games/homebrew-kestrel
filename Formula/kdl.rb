@@ -1,10 +1,10 @@
 class Kdl < Formula
     desc "Kestrel Definition Language compiler"
-    homepage "https://github.com/EvocationGames/KestrelEngine.git"
-    url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KDL-macOS.tar.gz"
-    head "https://github.com/EvocationGames/KestrelEngine.git"
+    homepage "https://github.com/Evocation-Games/KestrelEngine.git"
+    url "https://github.com/Evocation-Games/KestrelEngine/releases/download/v0.9.1/KDL-macOS-370.tar.gz"
+    head "https://github.com/Evocation-Games/KestrelEngine.git"
     license "MIT"
-    sha256 "72f711dbc33f69bb8f1b09e4af74ddf94c2a86a55714a5e0158192029457380a"
+    sha256 "da46b759bdabe45c7f8809bcf5136a20d244570d8fd6a89ecd0e642fa4197290"
 
     def install
         bin.install "kdl"

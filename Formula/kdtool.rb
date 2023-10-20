@@ -1,10 +1,10 @@
 class Kdtool < Formula
     desc "Kestrel Development Tooling"
-    homepage "https://github.com/EvocationGames/KestrelEngine.git"
-    url "https://github.com/EvocationGames/KestrelEngine/releases/download/v0.9/KDTool-macOS.tar.gz"
-    head "https://github.com/EvocationGames/KestrelEngine.git"
+    homepage "https://github.com/Evocation-Games/KestrelEngine.git"
+    url "https://github.com/Evocation-Games/KestrelEngine/releases/download/v0.9.1/KDTool-macOS-370.tar.gz"
+    head "https://github.com/Evocation-Games/KestrelEngine.git"
     license "MIT"
-    sha256 "f118ef5a281223577a92b44938b485d8765dc9a83ef1f17a2aa3ec61b277b419"
+    sha256 "b3f6e50f04c8b300571953afc44f233e9ac944774fe0d797aa3bf67033eee113"
 
     depends_on "llvm@15"
     depends_on "kestrel"
