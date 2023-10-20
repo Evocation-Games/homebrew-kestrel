@@ -8,7 +8,12 @@ class CfDefinitions < Formula
     version "1"
 
     def install
-        prefix.install Dir["CosmicFrontier"] 
+        prefix.install Dir["*"] 
+    end
+
+    def post_install
+        Dir.mkdir("#{var}/kestrel")
+        File.write("#{var}/kestrel/CosmicFrontier.kdmodule", "@import \"#{prefix}/ModelDefinitions.kdl\";\n");
     end
 
     test do
