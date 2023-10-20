@@ -1,4 +1,4 @@
-class Cfdefinitions < Formula
+class CfDefinitions < Formula
     desc "Cosmic Frontier Definitions"
     homepage "https://github.com/Evocation-Games/CosmicFrontier-Resource-Types.git"
     url "https://github.com/Evocation-Games/CosmicFrontier-Resource-Types/releases/download/R1/CosmicFrontier-Definitions.tar.gz"
